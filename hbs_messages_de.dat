@@ -1,0 +1,65 @@
+# Display messages for high bay storage system
+# SLW 04-2025
+
+# Title
+wlc_01:             * Hochregal-Lager *
+wlc_02:             DHBW Lörrach 04/2025
+
+# System messages
+mqtt_connected:	    MQTT verbunden
+mqtt_ready:		    MQTT bereit
+mqtt_disconnect:	MQTT beendet
+msg_x_man:		    X-Achse
+msg_y_man:          Y-Achse
+msg_z_man:          Z-Achse
+storage_loaded:	    Belegung geladen
+storage_created:    Belegung angelegt
+show_occupancy:		Regal-Belegung
+okay:				Okay
+sys_exit:           Programm-Ende
+shutdown:			System Shutdown
+poweroff:           Wird abgeschaltet
+
+# Error messages
+err_nonet:          Kein Netzwerk
+err_y_timeout:      Y Timeout
+err_wrong_x_target:	Falsche X-Position
+err_wrong_y_target: Falsche Y-Position
+err_wrong_z_target: Falsche Z-Position
+err_wrong_z_level:  Falsche Z-Ebene
+err_x_init:	        X-Initial. Fehler
+err_y_init:			Y-Initial. Fehler
+err_z_init:		    Z-Initial. Fehler
+err_y_pos:          Y Achsen-Fehler
+err_x_pos:          X Achsen-Fehler
+err_z_pos:          Z Achsen-Fehler
+err_xz_pos:		    X/Z Achsen-Fehler 
+err_x_udf:		    X-Achse undefiniert
+err_y_udf:		    Y-Achse undefiniert
+err_z_udf:		    Z-Achse undefiniert
+err_emrg_stop:    	Not Aus
+err_mqtt:       	MQTT Fehler
+err_storage_full:   Lager ist voll!
+err_storage_empty:  Lager ist leer!
+err_json_format:	JSON falsches Format
+err_json_noop:	    JSON keine Operation
+err_cmd_unknown:    Aktion unbekannt
+err_wrong_args:     Falsche Parameter
+err_wrong_arg_cnt:  Falsche Par.Zahl
+err_shelf_empty:    Keine Box im Fach 
+err_shelf_occupied: Fach belegt  
+err_storage_io:     Belegung Ladefehler
+err_input_belt:     Eingabe-Band Fehler
+err_internal:		Interner Fehler
+
+# Operations
+store:		    	Box einlagern
+destore:        	Box auslagern
+store_random:   	Box zufällig ablegen
+destore_random:	    Box zufällig abholen
+rearrange:			Box umlagern
+init_x:		    	Initialisiere X ...
+init_y:		    	Initialisiere Y ...
+init_z:		    	Initialisiere Z ...
+
+
