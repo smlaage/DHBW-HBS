@@ -1,0 +1,13 @@
+2025-04-29 14:13:59 INFO     HBS:__init__HBS program start
+2025-04-29 14:14:01 INFO     HBSController.__init__
+2025-04-29 14:14:01 INFO     MQTTClient.connect: Connect to MQTT-Broker 192.168.1.94:1883
+2025-04-29 14:14:01 INFO     MQTTClient.connect: Subscription started on: hochregallager/set
+2025-04-29 14:14:01 INFO     MQTTClient._on_connect: connected!
+2025-04-29 14:14:01 INFO     HBS.start_operator
+2025-04-29 14:14:01 INFO     HBSOperator.init_ypos: Initializing Y ...
+2025-04-29 14:14:05 ERROR    HBSOperator.init_ypos: Y initialization unsuccessful
+2025-04-29 14:14:05 INFO     HBSOperator.init_zpos: Initializing Z ...
+2025-04-29 14:14:08 ERROR    HBSOperator.init_zpos: Z initialization unsuccessful
+2025-04-29 14:14:08 INFO     HBSOperator.init_xpos: Initializing X ...
+2025-04-29 14:14:12 ERROR    HBSOperator.init_xpos: X initialization unsuccessful
+2025-04-29 14:14:13 INFO     Program ended

@@ -1,0 +1,12 @@
+2025-04-29 14:15:02 INFO     HBS:__init__HBS program start
+2025-04-29 14:15:04 INFO     HBSController.__init__
+2025-04-29 14:15:04 INFO     MQTTClient.connect: Connect to MQTT-Broker 192.168.1.94:1883
+2025-04-29 14:15:04 INFO     MQTTClient.connect: Subscription started on: hochregallager/set
+2025-04-29 14:15:04 INFO     MQTTClient._on_connect: connected!
+2025-04-29 14:15:04 INFO     HBS.start_operator
+2025-04-29 14:15:04 INFO     HBSOperator.init_ypos: Initializing Y ...
+2025-04-29 14:15:05 INFO     HBSOperator.init_zpos: Initializing Z ...
+2025-04-29 14:15:07 INFO     HBSOperator.init_xpos: Initializing X ...
+2025-04-29 14:15:08 INFO     HBSController.load_storage_file: storage_loaded
+2025-04-29 14:15:08 INFO     HBS.run: Waiting for MQTT messages. Cancel with ctrl-C!
+2025-04-29 14:15:15 INFO     Program ended
